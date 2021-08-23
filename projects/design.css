@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=kumbh+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+    color: hsl(229, 23%.23%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/bg-pattern-top.svg') no-repeat, url('./images/bg-pattern-bottom.svg') no-repeat, hsl(185, 75%, 39%);
+    background-position-x: calc(50%-450px), calc(50% + 450px);
+}
+
+.card {
+    width: 30.3125rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card_person {
+    width: 100%;
+    height: 13.8125rem;
+    border-bottom: 1px solid hsl(0, 0%, 89%);
+    background-image: url('./background-images/pexels-pixabay-279321.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: visible;
+}
+.card_person img{
+    width: 45%;
+    border-radius: 100%;
+    margin-top: 100px;
+    z-index: 999;
+    border: 3px solid snow;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.247);
+}
+
+.card_name{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.card_name h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    /* text-transform: capitalize; */
+    margin-top: 0, 0, 2px;
+    text-align: center;
+}
+
+.card_name h1 span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.card_name h2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding-top: 0.75rem;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: rows;
+    border-top: 1px solid rgba(112, 128, 144, 0.322);
+}
+
+.social_numbers {
+    font-weight: 700;
+}
+
+.social_types {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.social_item {
+    width: 33.33%;
+    padding: 1rem;
+}
+
+.attribution {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 70%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:900px) {
+    .card {
+        width: 30.875rem;
+    }
+}

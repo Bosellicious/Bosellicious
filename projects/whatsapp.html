@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp Messenger</title>
+    <link rel="icon" href="images/flaticon.icon" />
+    <link rel="stylesheet" href="chat.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+   <!-- <main>  
+        <aside>
+            <li><i class="fa fa-user-circle-o"></i></li>
+            <li><i class="fa fa-spinner"></i></li>
+            <li><i class="fa fa-comment"></i></li>
+            <li><i class="fa fa-caret-down"></i></li> 
+            <li><form><input placeholder="search or start new chat"/><i class="fa fa-search"></i></form></li>            <li><i class="fa fa-user-circle-o"></i></li>
+            <li><i class="fa fa-video"></i></li>
+            <li><i class="fa fa-phone"></i></li>
+            <li><i class="fa fa-search"></i></li>
+            <li><i class="fa fa-caret-down"></i></li> 
+
+        </aside> -->
+        
+            <div class="grid">
+              <!-- App background -->
+              <div class="top"></div>
+              <div class="bottom"></div>
+              <!-- App -->
+              <div class="app">
+                <div class="sidebar">
+                  <!-- Sidebar header -->
+                  <div class="sidebar-header">
+                    <img src="mesh.jpeg" />
+                    <div class="sidebar-header-icons">
+                      <span class="header-icon" title="Status">
+                        <svg id="ee51d023-7db6-4950-baf7-c34874b80976" viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M12 20.664a9.163 9.163 0 0 1-6.521-2.702.977.977 0 0 1 1.381-1.381 7.269 7.269 0 0 0 10.024.244.977.977 0 0 1 1.313 1.445A9.192 9.192 0 0 1 12 20.664zm7.965-6.112a.977.977 0 0 1-.944-1.229 7.26 7.26 0 0 0-4.8-8.804.977.977 0 0 1 .594-1.86 9.212 9.212 0 0 1 6.092 11.169.976.976 0 0 1-.942.724zm-16.025-.39a.977.977 0 0 1-.953-.769 9.21 9.21 0 0 1 6.626-10.86.975.975 0 1 1 .52 1.882l-.015.004a7.259 7.259 0 0 0-5.223 8.558.978.978 0 0 1-.955 1.185z"></path></svg>
+                      </span>
+                      <span class="header-icon" title="New Chat">
+                        <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M19.005 3.175H4.674C3.642 3.175 3 3.789 3 4.821V21.02l3.544-3.514h12.461c1.033 0 2.064-1.06 2.064-2.093V4.821c-.001-1.032-1.032-1.646-2.064-1.646zm-4.989 9.869H7.041V11.1h6.975v1.944zm3-4H7.041V7.1h9.975v1.944z"></path></svg>
+                      </span>
+                      <span class="header-icon" title="Menu">
+                        <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>
+                      </span>
+                      
+                    </div>
+                  </div>
+
+                  <!-- Sidebar search chat -->
+                  <div class="search-chat">
+                    <div class="search-bar">
+                      <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M15.009 13.805h-.636l-.22-.219a5.184 5.184 0 0 0 1.256-3.386 5.207 5.207 0 1 0-5.207 5.208 5.183 5.183 0 0 0 3.385-1.255l.221.22v.635l4.004 3.999 1.194-1.195-3.997-4.007zm-4.808 0a3.605 3.605 0 1 1 0-7.21 3.605 3.605 0 0 1 0 7.21z"></path></svg>
+                      <input type="text" placeholder="Search or start new chat" />
+                    </div>
+                  </div>
+
+                  <!-- Sidebar notifications -->
+          <div class="sidebar-notifications">
+            <span class="archived-icon" title="Archived">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class=""><path d="M18.54 3.23l-1.39-1.68C16.88 1.21 16.47 1 16 1H4c-.47 0-.88.21-1.16.55L1.46 3.23C1.17 3.57 1 4.02 1 4.5V17c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4.5c0-.48-.17-.93-.46-1.27zM4.24 3h11.52l.81.97H3.44l.8-.97zM3 17V6h14v11H3zm8.45-9h-2.9v3H6l4 4 4-4h-2.55V8z" fill="currentColor"></path></svg>
+            </span>
+            <div class="sidebar-notifications-message">
+                <div class="sidebar-notifications-message-left"></div>
+                <div class="chat-right">
+                <div class="chat-right-top">
+                 <span>Archived</span>
+                <span class="unread-messages-number">3</span>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+                  <div class="chats">
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="AY.jpeg"/>
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">Boo of life 💖💖</span>
+                          <span class="chat-date">yesterday</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                        <div class="chat-right-bottom-left">
+                         <span class="chat-message">Okay o</span>
+                         </div>
+                         <div class="chat-right-bottom-right">
+                           <span class="chat-options">
+                             <img src="pinned down.jpg">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="chat active-chat">
+                      <div class="chat-left">
+                        <img src="bose.jpeg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">Bose</span>
+                          <span class="chat-time">1:57PM</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <img
+                              class="double-check-mark"
+                              src="https://as1.ftcdn.net/v2/jpg/04/23/70/76/500_F_423707656_jZgziLWBSshhLdsaYMkq2jJTuowFGlip.jpg"/>                           
+                            <span class="chat-message">recreate the website used in the article as well</span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="mesh.jpeg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">Mesh engine 😎</span>
+                          <span class="chat-time">1:27PM</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <span class="chat-message">https://twitter.com</span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                              <img src="images/down-arrow.svg" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- POS-->
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="images/Pos.jpg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">Pos</span>
+                          <span class="chat-date">yesterday</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <span class="chat-message">Gideon Pos any update on this?</span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                              <img src="images/down-arrow.svg" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Olushola-->
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="sholly.jpeg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">Shugaa💙❤️</span>
+                          <span class="chat-time">9:37AM</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <img
+                              class="double-check-mark"
+                              src="images/double-check-unseen.svg"
+                            />
+                            <span class="chat-message">You will give me bread and rice ba😏😏</span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                              <img src="images/down-arrow.svg" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="Chike.jpeg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">Chike</span>
+                          <span class="chat-time">1:24PM</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <img
+                              class="double-check-mark"
+                              src="images/double-check-seen.svg"/>
+                            <span class="chat-message">i need you to come sing for my wedding😊 </span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                              <img src="images/down-arrow.svg" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Gbemi-->
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="images/img-.jpg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">+234 817 150 2011</span>
+                          <span class="chat-time">4:30AM</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <img
+                              class="double-check-mark"
+                              src="images/double-check-seen.svg"
+                            />
+                            <span class="chat-message">See you soon..😁😁</span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                              <img src="images/down-arrow.svg" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tailor-->
+                    <div class="chat">
+                      <div class="chat-left">
+                        <img src="images/tailor.jpg" />
+                      </div>
+                      <div class="chat-right">
+                        <div class="chat-right-top">
+                          <span class="contact-name">junior Tailor</span>
+                          <span class="chat-date">yesterday</span>
+                        </div>
+                        <div class="chat-right-bottom">
+                          <div class="chat-right-bottom-left">
+                            <img
+                              class="single-check-mark"
+                              src="images/single-check.svg"/>
+                            <span class="chat-message">When am i getting my clothe?🤔🤔🤔</span>
+                          </div>
+                          <div class="chat-right-bottom-right">
+                            <span class="chat-options">
+                              <img src="images/down-arrow.svg" />
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main">
+                  <div class="main-overlay">
+                    <!-- Main chat window header -->
+                    <div class="chat-window-header">
+                      <div class="chat-window-header-left">
+                        <img
+                          class="chat-window-contact-image"
+                          src="bose.jpeg"
+                        />
+                        <div class="contact-name-and-status-container">
+                          <span class="chat-window-contact-name">Bose</span>
+                          <span class="chat-window-contact-status">Online</span>
+                        </div>
+                      </div>
+                      <div class="chat-window-header-right">
+                        <span class="header-icon" title="Search">
+                          <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"></path></svg>
+                        </span>
+                        <span class="header-icon" title="Menu">
+                          <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg>                        
+                        </span>
+                      </div>
+                    </div>
+                    <!-- Chat window -->
+                    <div class="chat-window">
+                      <div class="sender">
+                        <span class="sender-message-tail">
+                          <img src="./images/message-tail-sender.svg"/>
+                        </span>
+                        <span class="sender-message">you are expected to share your deliverables</span>
+                        <span class="message-time">5:04PM</span>
+                        </div>
+                        <div class="sender">
+                        <span class="sender-message">where is the weather app?</span>
+                        <span class="message-time">5:04PM</span>
+                        <span class="message-status">
+                          <img src="./images/double-check-seen.svg"/>
+                        </span>
+                      </div>
+  
+                      <div class="receiver">
+                        <span class="receiver-message-tail">
+                          <img src="./images/message-tail-receiver.svg"/>
+                        </span>
+                        <span class="receiver-message">I thought the video was for me to learn more about how to use media queries</span>
+                        <span class="message-time">6:15PM</span>
+                       </div>
+                          <div class="receiver">
+                          <span class="receiver-message">i showed you last week 🥴</span>
+                          <span class="message time">6:16PM</span>
+                          </div>
+                          <div class="receiver">
+                          <span class="receiver-message">And you said it was okay for a start</span>
+                          <span class="message time">6:16PM</span>
+                          </div>
+                          <div class="receiver">
+                          <span class="receiver-message">Or you want me to work more on it</span>
+                          <span class="message time">6:16PM</span>
+                          </div>
+                          <span class="message-status">
+                          <img src="./images/double-check-seen.svg"/>
+                        </span>
+                        </div>
+  
+  
+                          <div class="sender">
+                           <span class="sender-message-tail">
+                          <img src="./images/message-tail-sender.svg"/>
+                        </span>
+                        <span class="sender-message">okay</span>
+                        <span class="message-time">6:16AM</span>
+                        </div>
+                        <div class="sender">
+                        <span class="sender-message">it is fine then</span>
+                        <span class="message time">6:16AM</span>
+                        </div>
+                        <div class="sender">
+                            <span class="sender-message">Can you create a responsive website now?</span>
+                            <span class="message time">6:17AM</span>
+                        </div>
+                          <span class="message-status">
+                          <img src="./images/double-check-seen.svg"/>
+                        </span>
+
+                  </div>
+                </div>
+
+                    <!-- Type message bar -->
+                    <div class="type-message-bar">
+                      <div class="type-message-bar-left">
+                        <img src="images/icons.svg" />
+                        <img src="images/attach-icon.svg" />
+                      </div>
+                      <div class="type-message-bar-center">
+                        <input type="text" placeholder="Type a message" />
+                      </div>
+                      <div class="type-message-bar-right">
+                        <img src="images/audio-icon.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- </div>
+            </div> -->
+          </body>
+        </html>
